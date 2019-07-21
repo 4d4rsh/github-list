@@ -1,10 +1,14 @@
 import React from 'react';
-import './App.css';
 import GithubFileList from './component/GithubFileList';
+import './App.css';
 
 const App = () => {
   return (
-    <GithubFileList />
+    <table className='App'>
+      <tbody>
+      <GithubFileList />
+      </tbody>
+    </table>
   )
 }
 

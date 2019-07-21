@@ -1,0 +1,13 @@
+.thumbnail {
+    display: inline-block;
+    height: 15px;
+    margin-right: 4px;
+}
+.text {
+    display: inline-block;
+    color: #0366d6;
+}
+.file-name-container {
+    width: 250px;
+    padding: 5px;
+}

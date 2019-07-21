@@ -3,6 +3,6 @@ import FileName from './FileName';
 import CommitMessage from './CommitMessage';
 import Time from './Time';
 
-const GithubFileList = () => <><FileName /><CommitMessage /><Time /></>
+const GithubFileList = () => <tr><FileName /><CommitMessage /><Time /></tr>
 
 export default GithubFileList;

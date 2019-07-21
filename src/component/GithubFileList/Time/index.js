@@ -1,8 +1,9 @@
 import React from 'react';
+import './style.css';
 
 const Time = () => {
     return(
-        <p>Time</p>
+        <td className='time-container'><p className='time'>Time</p></td>
     )
 }
 
