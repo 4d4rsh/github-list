@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-const CommitMessage = () => {
+const CommitMessage = ({message}) => {
     return(
-        <td className='message-container'><p className='message'>Message</p></td>
+        <td className='message-container'><p className='message'>{message}</p></td>
     )
 }
 
